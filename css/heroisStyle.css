@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap");
+
+html {
+  font-size: 16px;
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.descontos {
+  background-color: #1cd1b0;
+  height: 2.9rem;
+  color: #000000;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.super-herois {
+  background-color: #00669f;
+  color: #000000;
+  padding-bottom: 30px;
+  height: 4.8rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+h1 {
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  display: flex;
+  text-align: center;
+  width: 50%;
+  justify-items: flex-start;
+}
+
+.container-pai {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: #e5e5e5;
+  width: 374px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 2%;
+}
+
+img.background {
+  width: 374px;
+  height: 217.81px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+img.batman {
+  border-radius: 100%;
+  position: absolute;
+  left: 130px;
+  top: 150px;
+  width: 135.43px;
+  height: 133.17px;
+}
+
+.descricao {
+  text-align: justify;
+  padding: 30px;
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 1.5rem;
+}
+
+.botao {
+  width: 50%;
+  height: 7%;
+  background-color: #00669f;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 3.5rem;
+  background-color: #00669f;
+  color: #fff9f9;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  margin-top: 3.7%;
+}
+
+.footer > p {
+  height: 1rem;
+  width: 100%;
+  margin-left: 3%;
+}
+
+@media (max-width: 780px) {
+  
+  html {
+    font-size: 10px;
+    height: 20px;
+  }
+
+  .descontos {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.5rem;
+    height: 7rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .super-herois {
+    display: flex;
+    height: 4.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .descricao {
+    font-size: 1.5rem;
+  }
+  
+  .titulo {
+    font-size: 2.3rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer > p {
+    margin-right: 30px;
+  }
+}
