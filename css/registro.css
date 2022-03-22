@@ -9,8 +9,7 @@ html {
   padding: 0;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
-    }   
-
+}
 
 .descontos {
   background-color: #1cd1b0;
@@ -21,13 +20,13 @@ html {
   width: 100%;
   font-size: 0.8rem;
   display: flex;
-  }
+}
 
 .super-herois {
   background-color: #00669f;
   color: #f5efef;
-  padding-top:15px;
-  height: 4.0rem;
+  padding-top: 15px;
+  height: 4rem;
   font-size: 1rem;
   display: flex;
   justify-content: flex-start;
@@ -42,79 +41,98 @@ h1 {
   justify-items: flex-start;
 }
 
-.formulario{
-    background-color: #cafaf188;
-    border-radius: 10px;
-    margin: auto;
-    width: 50%;
-    margin-top:5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-form{
- display: flex;
- flex-direction: column; 
- 
-  }
-
-.dados{
-width: 100%;  
-height: 100%;  
-border-radius: 10px;
-border-color:  #cafaf188;
-padding:10px;
-display: flex;
-flex-direction: column;
-gap:5px;}
-
-label {
-    display: block;
-}
-
-input[type=text],[type=Email],[type=password]{
-    height: 30px;
-    width: 100%;
-    border:#000000 1px solid;
-    border-radius: 5%;
-    padding: 5px;
-}
-
-.botoes input{
-    height: 30px;
-    width: 120px;
-    background-color: #1cd1b0;
-}
-
-.botoes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
-p{
-    font-size: 0.6rem;
-    text-align: center;
-}
-
-.footer{
-  background-color: #00669f;
-  color: #f5efef;
-  height: 2.0rem;
-  font-size: 1rem;
-  display: flex;
-  justify-content: flex-start;
+.formulario {
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
   width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: ;
+}
+
+fieldset  {
+  width: 560px;
+  height: 100%;
+  border: 0px solid white;
+}
+
+.dados {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
   
 }
 
+.dados > div > input {
+  display: flex;
+  border: 2px solid black;
+}
 
 
+input[type="text"],
+[type="Email"],
+[type="password"] {
+  height: 30px;
+  width: 100%;
+  border: #000000 1px solid;
+  border-radius: 5%;
+  padding: 5px;
+}
 
+select{
+  height: 30px;
+  width: 100%;
+  border: #000000 1px solid;
+  border-radius: 5%;
+  padding: 5px;
+  border: 2px solid black;
+}
 
+.botoes input {
+  height: 30px;
+  width: 120px;
+  background-color: #1cd1b0;
+  display: flex;
+  justify-content: center;
+}
 
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
 
+.footer > p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.9%;
+}
+
+.footer {
+  background-color: #00669f;
+  color: #f5efef;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+}
+
+footer {
+  width: 100%;
+  height: 5.8rem;
+  bottom: 0;
+  display: flex;
+  margin-top: 13%;
+}
